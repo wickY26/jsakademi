@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "dev": "next -p 3030",
+    "build": "next build",
+    "start": "next start",
+    "server": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "express": "^4.16.4",
+    "next": "^7.0.2",
+    "node-sass": "^4.11.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
+}
