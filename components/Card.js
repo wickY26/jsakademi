@@ -18,7 +18,7 @@ const styles = {
   },
 };
 
-function ImgMediaCard(props) {
+const ImgMediaCardComponent = (props) => {
   const { classes } = props;
   return (
     <Card className={classes.card}>
@@ -53,8 +53,8 @@ function ImgMediaCard(props) {
   );
 }
 
-ImgMediaCard.propTypes = {
+ImgMediaCardComponent.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(ImgMediaCard);
+export const ImgMediaCard = withStyles(styles)(ImgMediaCardComponent);

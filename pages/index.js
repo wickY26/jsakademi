@@ -6,9 +6,9 @@ import Link from 'next/link'
 import Button from '@material-ui/core/Button';
 
 // Components
-import { Default } from '../layouts';
+import { Default, CenteredGrid } from '../layouts';
 import { Header } from '../sections';
-import Card from '../components/Card';
+import { ImgMediaCard } from '../components';
 
 // Code
 const Index = () => (
@@ -16,7 +16,12 @@ const Index = () => (
     <Button variant="contained" color="primary">
       Material Button
     </Button>
-    <Card />
+    <ImgMediaCard />
+
+    <div>
+
+    <CenteredGrid />
+    </div>
   </Default>
 )
 
